@@ -15,7 +15,13 @@
 }
 
 .accordion-question {
+  color: var(--dark-gray);
+}
+
+.accordion-answer {
+  overflow: hidden;
   color: var(--gray);
+  max-height: 0;
 }
 
 .accordion-toggle-btn {
@@ -33,7 +39,12 @@
 }
 
 .accordion-toggled .accordion-question {
-  transition: all 0.2s ease-in-out;
   color: var(--black);
   font-weight: 600;
+}
+
+.accordion-toggled .accordion-answer {
+  transition: max-height 0.2s ease-in-out;
+  max-height: 500px;
+  margin-top: 11px;
 }
