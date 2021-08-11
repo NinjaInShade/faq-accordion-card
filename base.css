@@ -58,12 +58,12 @@ h1 {
   line-height: var(--body-s-line-height);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   :root {
     --body: 0.8125rem;
   }
 
-  .body {
+  body {
     padding: 75px 23px;
   }
 }
