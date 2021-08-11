@@ -25,13 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-<!-- ![](./screenshots/Desktop_solution.png) -->
-<!-- ![](./screenshots/Mobile_solution.png) -->
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Desktop_active_solution.png)
+![](./screenshots/Mobile_solution.png)
+![](./screenshots/Mobile_active_solution.png)
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-order-summary-card-TFXa8ZDRV) -->
-<!-- - Live Site URL: (https://lm-order-summary-component.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-with-smooth-animations-E4NZfw4IF)
+- Live Site URL: (https://lm-faq-accordion-card.netlify.app/)
 
 ## My process
 
@@ -43,7 +45,11 @@ Users should be able to:
 
 ### What I learned
 
-Not done yet.
+Learnt/practiced a couple things. Probably my most favourite challenge so far due to the cool looking illustration, accordion components and the overall design really made me like this one.
+
+Firstly, I learned how to put together an image where you have smaller svg's that make it up. I used <img> elements and a background css class element to put it all together. Then I played around with relative positioning and overflow to give it the effect of popping out the card.
+
+Next, I tried to design as semantic and accessible as possible accordion component. Then, I added a smooth max-height animation + some hover/active states. Javascript was used to toggle classes and to make sure only one accordion is open at one time.
 
 ## Author
 
