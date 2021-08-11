@@ -18,6 +18,15 @@
   color: var(--dark-gray);
 }
 
+.accordion-flex:hover .accordion-question {
+  transition: all 0.2s ease-in-out;
+  color: var(--orange);
+}
+
+.accordion-toggled .accordion-flex:hover .accordion-question {
+  color: var(--black);
+}
+
 .accordion-answer {
   overflow: hidden;
   color: var(--gray);
