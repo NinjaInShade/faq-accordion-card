@@ -12,8 +12,9 @@
   font-size: 16px;
 
   /* Primary */
-  --gradient: linear-gradient(180deg, rgba(176, 104, 233, 1) 0%, rgba(100, 99, 231, 1) 100%);
   --orange: #f47b56;
+
+  --gradient: linear-gradient(180deg, rgba(176, 104, 233, 1) 0%, rgba(100, 99, 231, 1) 100%);
 
   /* Neutral */
   --black: #1e1f36;
@@ -34,7 +35,12 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--gradient);
+  padding: 75px 23px;
   min-height: 100vh;
+}
+
+main {
+  width: 100%;
 }
 
 h1 {
