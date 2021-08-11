@@ -12,15 +12,9 @@
 }
 
 .card-content {
+  padding: 90px 95px 0 0;
   max-width: 445px;
   width: 100%;
-}
-
-.card-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-right: 95px;
 }
 
 .card-title {
@@ -50,4 +44,11 @@
   max-width: 170px;
   left: -9%;
   top: 42%;
+}
+
+@media (max-width: 1250px) {
+  .card-img-box {
+    max-width: 130px;
+    left: -7%;
+  }
 }

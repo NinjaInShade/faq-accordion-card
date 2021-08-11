@@ -36,7 +36,7 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--gradient);
-  padding: 75px 23px;
+  padding: 75px 50px;
   min-height: 100vh;
 }
 
@@ -61,5 +61,9 @@ h1 {
 @media (max-width: 375px) {
   :root {
     --body: 0.8125rem;
+  }
+
+  .body {
+    padding: 75px 23px;
   }
 }
