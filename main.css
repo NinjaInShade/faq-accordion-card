@@ -1,7 +1,7 @@
 .card {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   position: relative;
   background: #fff;
   margin: 0 auto;
@@ -9,8 +9,6 @@
   border-radius: 23px;
   max-width: 920px;
   width: 100%;
-  /* TEMP */
-  height: 500px;
 }
 
 .card-content {
@@ -19,7 +17,10 @@
 }
 
 .card-content {
-  padding: 65px 95px 84px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 95px;
 }
 
 .card-title {
@@ -34,9 +35,9 @@
   justify-content: center;
   overflow: hidden;
   background: no-repeat url('./assets/bg-pattern-desktop.svg');
-  background-size: 200%;
   background-position: 120% 65%;
-  height: 100%;
+  background-size: 200%;
+  min-height: 500px;
 }
 
 .card-img-main {
